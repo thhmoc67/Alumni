@@ -1,0 +1,102 @@
+
+@font-face {
+   font-family: 'myFirstFont';
+   src:url(Quicksand-Regular.otf);
+}
+@media (max-width: 1200px) {
+	body{font:300 13px/13px Roboto,Arial,Helvetica;}
+
+	.grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
+	figure.effect-oscar figcaption{padding: 12%;}
+	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
+
+}
+
+@media (max-width: 900px) {
+	h1{font: 700 3.5em Roboto,Arial,Helvetica;}
+	h4 {font: 300 1.3em Roboto,Arial,Helvetica;}
+	.btn{padding: 1em 2em;}
+	figure.effect-chico figcaption {padding: 2em;}
+	figure.effect-oscar figcaption {padding: 20%;}
+	figure.effect-chico figcaption::before{top: 10px;right: 10px;bottom: 10px;left: 10px;}
+	.grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;}
+}
+
+@media (max-width: 767px) {
+	body{font:300 12px/12px Roboto,Arial,Helvetica;}
+
+	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: none;}
+
+	h2.text-center{text-align: left;font-size: 1.7em;}
+	h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
+
+
+	.spacer{padding:2em 0 ;}
+	.grid.team div{margin: 0;padding: 0;}
+	figure.effect-chico figcaption {padding: 1.5em;}
+	.footer{padding-bottom: 2em;}
+}
+
+body {
+
+  }
+
+  #header1{
+
+    margin-top:50px;
+
+
+  }
+#main-container{
+   margin-left:100px;
+   margin-right:100px;
+   margin-bottom: 0px;
+   height:100%;
+}
+#alumni-image{
+  max-width:30px;
+  position:
+}
+#alumni-tag{
+  position:absolute;
+}
+#alumni-tag #alumni-image>img {
+  padding: 7px 15px;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+}
+ .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.nav-container{
+  display: flex;
+  padding: 7px 14px;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+#alumni-logo-image{
+  width=100px;
+  height: auto;
+  }
+  .fa-anchor,.fa-coffee {font-size:100px}
+
+body{
+  background-color:  inherit;
+}
+
+#login{
+  position:absolute;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height:300px;
+  width:250px;;
+}
+#search{
+  position: absolute;
+  height: 45%;
+  width: 100%;
+}
